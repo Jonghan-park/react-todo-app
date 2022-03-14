@@ -9,11 +9,10 @@ function TodoList() {
             return
         }
 
-        const newTodos = [todo, ...todos]
+        const newTodos = [todo, ...todos];
 
-        setTodos(newTodos)
-        console.log(...todos);
-    }
+        setTodos(newTodos);
+    };
   
     return (
     <div>
