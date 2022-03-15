@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 function TodoForm(props) {
     const [input, setInput] = useState('')
@@ -19,14 +19,14 @@ function TodoForm(props) {
 
     return (
         <form className='todo-form' onSubmit={handleSubmit}>
-            <input type="text" 
-            placeholder='Add a todo' 
-            value={input}
-            name="text" 
-            className='todo-input' 
-            onChange={handleChange}
+            <input type="text"
+                placeholder='Add a todo'
+                value={input}
+                name="text"
+                className='todo-input'
+                onChange={handleChange}
             />
-        <button className='todo-button'>Add todo</button>
+            <button className='todo-button'>Add todo</button>
 
         </form>
     )
