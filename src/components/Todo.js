@@ -15,7 +15,7 @@ function Todo() {
                 {todo.text}
             </div>
         <div className='icons'>
-            
+            <RiCloseCircleLine />
         </div>
         </div>
     ))
